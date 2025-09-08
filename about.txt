@@ -1,3 +1,4 @@
 M.Mahalsa Sai Sudeep
 BCA 
-GitHub is an online platform to store Git objects
+GitHub is an online platform to store Git objects.
+
