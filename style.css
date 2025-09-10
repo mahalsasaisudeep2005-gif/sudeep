@@ -1,0 +1,183 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+header {
+  background: #ff5733;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  font-size: 1.2rem;
+  padding: 5px 15px;
+  transition: background 0.3s;
+}
+
+header nav ul li a:hover {
+  background-color: #d85a1a;
+}
+
+/* Hero Section */
+.hero {
+  background: url('hero-image.jpg') no-repeat center center/cover;
+  color: white;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-text h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #ff5733;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #d85a1a;
+}
+
+/* Menu Section */
+.menu {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.menu-item {
+  text-align: center;
+}
+
+.menu-item img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.menu-item h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.menu-item p {
+  font-size: 1.2rem;
+}
+
+.order-button {
+  background-color: #ff5733;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.order-button:hover {
+  background-color: #d85a1a;
+}
+
+/* Delivery Process Section */
+.delivery-process {
+  background-color: #f4f4f4;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.delivery-process h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.process-steps {
+  display: flex;
+  justify-content: space-around;
+}
+
+.step {
+  text-align: center;
+  width: 25%;
+}
+
+.step img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+.step h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+}
